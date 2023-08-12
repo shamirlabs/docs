@@ -16,7 +16,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/shamirlabs.jpg',
+  favicon: 'img/shamirlabs.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
