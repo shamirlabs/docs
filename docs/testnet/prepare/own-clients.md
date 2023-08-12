@@ -7,21 +7,21 @@ hide_table_of_contents: false
 
 To configure the consensus and execution clients, you **MUST** rename the file `.env.example` to `.env` and change the following values of the file:
 
-- Replace the value `ws://127.0.0.1:8546` of `EXECUTION_CLIENT_URL` with the WebSocket endpoint of your execution client.
+- Replace the value `ws://HOST_IP:PORT` of `EXECUTION_CLIENT_URL` with the WebSocket endpoint of your execution client.
   ```bash
-  EXECUTION_CLIENT_URL=ws://127.0.0.1:8546  # Change this (execution RPC WebSocket, geth example)
+  EXECUTION_CLIENT_URL=ws://HOST_IP:PORT:PORT  # Change this (execution RPC WebSocket, geth example: ws://HOST_IP:PORT:8546)
   ```
 
-- Replace the value `http://127.0.0.1:3500` of `CONSENSUS_CLIENT_URL` with the REST API provider endpoint of your consensus client.
+- Replace the value `http://HOST_IP:PORT` of `CONSENSUS_CLIENT_URL` with the REST API provider endpoint of your consensus client.
 
   ```bash
-  CONSENSUS_CLIENT_URL=http://127.0.0.1:3500  # Change this (consensus REST API, prysm example)
+  CONSENSUS_CLIENT_URL=http://HOST_IP:PORT  # Change this (consensus REST API, prysm example: http://HOST_IP:3500)
   ```
 
-- Replace the value `127.0.0.1:4000` of the `BEACON_RPC_PROVIDER` with the RPC provider endpoint of your consensus client.
+- Replace the value `HOST_IP:PORT` of the `BEACON_RPC_PROVIDER` with the RPC provider endpoint of your consensus client.
 
   ```bash
-  BEACON_RPC_PROVIDER=127.0.0.1:4000 # Change this (consensus RPC, prysm example)
+  BEACON_RPC_PROVIDER=HOST_IP:PORT # Change this (consensus RPC, prysm example: http://HOST_IP:4000)
   ```
 
 To securely configure the Diva client, you **SHOULD** change the following values of the `.env` file  as well (these steps are optional in testnet, but highly recommended):
