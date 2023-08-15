@@ -1,6 +1,6 @@
 ---
-title: Testnet instructions
-description: This introduction details the process of how to participate in the Diva Alpha testnet
+title: How to Begin Operating on Diva Testnet
+description: This introduction provides details of the process, and how to participate in Diva Operator Testnet. 
 hide_table_of_contents: false
 ---
 
@@ -8,10 +8,10 @@ hide_table_of_contents: false
     <img src="https://diva.community/metalogo.png"  width="200"/>
 </div>
 
-Open the Github reposiroty https://github.com/shamirlabs/diva-alpha-net.
+Step 1: [**Open the Github repository**](https://github.com/shamirlabs/diva-alpha-net)
 
-This repository contains the necessary compose files to participate in the Diva alpha testnet using the docker images available at https://hub.docker.com/u/diva.
+This repository contains the necessary compose files to participate in the Testnet, using the docker images available at https://hub.docker.com/u/diva.
 
-:::caution Important Security Notice
-Docker may expose ports of your machine to the public. Please be aware that this setup does not implement any security measures. Running this testnet in an unprotected environment may expose your systems and data to potential risks. It is strongly recommended to deploy Diva in a secure and controlled network environment.
+:::! Important Security Notice !
+Docker may expose ports of your machine to the public. Please be aware that this setup does not implement any security measures. Running this Testnet in an unprotected environment may expose your systems and data to potential risks. It is strongly recommended to deploy Diva in a secure and controlled network environment.
 :::
