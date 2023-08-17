@@ -18,6 +18,19 @@ const sidebars = {
     "welcome",
     {
       type: 'category',
+      label: 'Selecting node hardware',
+      collapsed: true,
+      link: {
+        type: 'doc',
+        id: 'hardware/intro',
+      },
+      items: [
+        'hardware/intro',
+        'hardware/requirements'
+      ]
+    },
+    {
+      type: 'category',
       label: 'Diva Alpha testnet',
       collapsed: false,
       link: {
