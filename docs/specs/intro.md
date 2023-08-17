@@ -34,10 +34,12 @@ Liquid Stakers receive Staking Rewards protected by Operator collateral. Operato
 ![stake](img/architecture.png)
 </div>
 
-## Non-custodial validation
+What makes Diva unique is that all ETH deposits are staked and operated by non-custodial, trustless Operators.
 
-Unlike other solutions, Operators are completely non-custodial. They never have access to the funds or private key of the validators. The Diva Smart Contract acts as a bridge, depositing ETH into the Ethereum Consensus Layer where they are used to set up validators.
+This happens in several steps, as illustrated above:
 
-Each 32Ξ Ethereum validator is operated by 16 Diva Key Shares, which are distributed to different Operators who have posted enough collateral. When a validator needs to sign its validation duties, at least 2/3rds of its Key Shares need to come to consensus on what to sign in order to perform any action.
-
-This 66% consensus is the key to Diva's own DVT, making the system more reliable and safe. Diva Staking creates keys using Distributed Key Generation (DKG) to sign duties using “Boneh–Lynn–Shacham” BLS threshold signatures.
+1. Liquid Stakers deposit ETH to Diva's Smart Contract, receiving liquid divETH that accrues Staking Rewards.
+2. In increments of 32 ETH, deposits are bridged to the Ethereum Consensus Layer to form Ethereum validators.
+3. Each validator is controlled by 16 Diva Key Shares, acting together as a singular validator key.
+4. Operators lock divETH collateral to run a Diva node, operating Key Shares and earning additional Operator Rewards.
+5. Diva's method of distributing Key Shares creates 16x more Operators for Ethereum's attestations and block production, bolstering network decentralization and enabling participation from only 1 ETH!
