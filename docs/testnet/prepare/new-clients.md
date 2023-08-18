@@ -1,5 +1,5 @@
 ---
-title: "Option 2: Run with new ETH clients"
+title: "Option B: All-in-one Diva (simpler)"
 hide_table_of_contents: false
 ---
 

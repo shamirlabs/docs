@@ -18,19 +18,6 @@ const sidebars = {
     "welcome",
     {
       type: 'category',
-      label: 'Selecting node hardware',
-      collapsed: true,
-      link: {
-        type: 'doc',
-        id: 'hardware/intro',
-      },
-      items: [
-        'hardware/intro',
-        'hardware/requirements'
-      ]
-    },
-    {
-      type: 'category',
       label: 'Diva Alpha testnet',
       collapsed: false,
       link: {
@@ -38,10 +25,22 @@ const sidebars = {
         id: 'testnet/intro',
       },
       items: [
+        {
+          type: 'category',
+          label: '0. Hardware requirements',
+          collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'testnet/hardware/intro',
+          },
+          items: [
+            'testnet/hardware/requirements'
+          ]
+        },
         'testnet/install-docker',
         {
           type: 'category',
-          label: 'Prepare your node',
+          label: '2. Install Diva',
           link: {
             type: 'doc',
             id: 'testnet/prepare/prepare',

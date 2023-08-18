@@ -1,9 +1,11 @@
 ---
-title: Configure ports and run
+title: 3. Configure ports & run
 hide_table_of_contents: false
 ---
 
 # Configure ports and run
+
+### Configure ports
 
 Your Diva client needs to talk to other nodes in order to perform signatures, receive duties, and find peers. For that reason:
 

@@ -1,5 +1,5 @@
 ---
-title: Install docker
+title: 1. Install Docker
 hide_table_of_contents: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Register your node
+title: 4. Register your node
 hide_table_of_contents: false
 ---
 

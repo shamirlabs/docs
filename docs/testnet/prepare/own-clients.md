@@ -1,5 +1,5 @@
 ---
-title: "Option 1: Run with you own ETH clients"
+title: "Option A: Use your existing ETH clients"
 hide_table_of_contents: false
 ---
 
