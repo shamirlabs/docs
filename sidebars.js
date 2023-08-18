@@ -40,17 +40,18 @@ const sidebars = {
         'testnet/install-docker',
         {
           type: 'category',
-          label: '2. Install Diva',
+          label: '2. Download Diva',
           link: {
             type: 'doc',
-            id: 'testnet/prepare/prepare',
+            id: 'testnet/prepare',
           },
           items: [
             'testnet/prepare/own-clients',
             'testnet/prepare/new-clients',
           ],
         },
-        'testnet/prepare/configure',
+        'testnet/customize',
+        'testnet/configure',
         'testnet/setup',
         'testnet/known-bugs',
       ],

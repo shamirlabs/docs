@@ -4,11 +4,31 @@ description: This introduction details the process of how to participate in the 
 hide_table_of_contents: false
 ---
 
-<div style={{textAlign: 'center'}}>
-    <img src="https://diva.community/metalogo.png"  width="200"/>
-</div>
+The Diva Operator testnet allows you to:
 
-Open the Github reposiroty https://github.com/shamirlabs/diva-alpha-net.
+- Run your own Diva node to perform Distributed Validation.
+- Test different client combinations and edge cases.
+- Help stress test the system in preparation for Mainnet.
+
+Before you get started:
+
+- [Read the general Diva docs](https://docs.staking.foundation/) (external)
+- [Read the Operator docs](https://docs.staking.foundation/operators) (external)
+
+Once you're ready, you can set up your node by:
+
+0. [Choosing your hardware](hardware/intro)
+1. [Install Docker](install-docker)
+2. [Install Diva](prepare)
+3. [Secure your setup](secure)
+3. [Configure ports & run](configure)
+4. [Register your node](setup)
+
+If you're having any issues, check the [known bugs](known-bugs) or [join us on Discord for live support](https://discord.gg/diva)!
+
+### How does it work?
+
+The Diva Testnet repository is hosted in https://github.com/shamirlabs/diva-alpha-net.
 
 This repository contains the necessary compose files to participate in the Diva alpha testnet using the docker images available at https://hub.docker.com/u/diva.
 

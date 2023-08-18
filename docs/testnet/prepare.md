@@ -1,9 +1,9 @@
 ---
-title: Prepare your node
+title: Download Diva
 hide_table_of_contents: false
 ---
 
-# Prepare your node
+# Download Diva package
 
 Type the following commands in the CLI of a UNIX based system to clone this repository to your local machine:
 

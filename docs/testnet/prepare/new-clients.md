@@ -1,11 +1,23 @@
 ---
-title: "Option B: All-in-one Diva (simpler)"
+title: "B) All-in-one Diva (simpler)"
 hide_table_of_contents: false
 ---
 
 # Run Diva with Ethereum clients and metrics from scratch
 
-Alternatively, if you don't have Ethereum clients running in the Goerli testnet already, use the file `docker-compose-with-clients-metrics.yml` to run all together. Such file contains:
+If you don't have Ethereum clients running in the Goerli testnet yet, this option is for you.
+
+It is simpler to set up, although it will take a few hours for your Ethereum clients to sync.
+
+## Setup
+
+First, you rename the file `.env.example` to `.env` and change the following values of the file:
+
+```bash
+COMPOSE_FILE=docker-compose-with-clients-metrics.yml
+```
+
+This file is preconfigured to install the necessary Ethereum clients as dependencies. It contains:
 
 - [Diva client](https://hub.docker.com/r/diva/diva) written in Golang
 - [Reloader script](https://hub.docker.com/r/diva/reloader) service that syncs the public keys between the validator client and Diva
