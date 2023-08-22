@@ -12,6 +12,7 @@ hide_table_of_contents: false
 
 👉 [Start with the Diva Staking docs](https://docs.staking.foundation), independently maintained, to learn about Liquid Staking, Operators, Distributed Validation, Staking Rewards and much more.
 
+This will give you a basic understanding of the Diva system, after which you can come back here to learn how to set up a node.
 :::
 
 ShamirLabs is designing the first specs & implementation of the Diva Staking protocol.

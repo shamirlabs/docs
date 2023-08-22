@@ -6,7 +6,7 @@ hide_table_of_contents: false
 # Configure ports and run
 
 :::caution Important Security Notice
-Docker may expose ports of your machine to the public. Please be aware that this setup does not implement any security measures. Running this testnet in an unprotected environment may expose your systems and data to potential risks. It is strongly recommended to deploy Diva in a secure and controlled network environment.
+Docker exposes ports of your machine to the public. Please be aware that this setup does not implement any security measures. Running this testnet in an unprotected environment may expose your systems and data to potential risks. It is strongly recommended to deploy Diva in an isolated, secure and controlled network environment.
 :::
 
 

@@ -5,7 +5,7 @@ hide_table_of_contents: false
 
 #  Install docker
 
-The [testnet Github repository](https://github.com/shamirlabs/diva-alpha-net) contains docker compose files that can be run using [docker](https://www.docker.com/). Keep in mind that currently we provide only `linux/amd64` images.
+The [testnet Github repository](https://github.com/shamirlabs/diva-alpha-net) contains Docker compose files that can be run using [Docker](https://www.docker.com/). Keep in mind that currently we provide only `linux/amd64` images.
 
 If you're still deciding which operating system to use, Ubuntu server 22.04 LTS is a common choice.
 

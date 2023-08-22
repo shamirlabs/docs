@@ -20,4 +20,4 @@ To run a Diva node autonomously, you need to connect the Diva docker container t
 - If you already have Ethereum clients running in the Goerli testnet, continue to [Option A: Run with your existing ETH clients](own-clients).
 - If you don't have Ethereum clients running in the Goerli testnet, continue to [Option B: Run the all-in-one Diva client + ETH clients](new-clients).
 
-Take into account that both options contain telemetry images to help us monitor and improve the testnet. If you want to disable such telemetry, follow the instructions described in x.x.
+Take into account that both options contain telemetry images to help us monitor and improve the testnet.
