@@ -11,7 +11,7 @@ When using the file `docker-compose-with-clients-metrics.yml` or `docker-compose
 
 ## Not receiving any validator key shares
 
-The current Diva version doesn't require any collateral to receive validator key shares. You will start receiving them simply by remaining online. As new ETH is staked into Diva, validators will be created and you will have a chance to randomly receive some of the new key shares.
+The current Diva version doesn't require any collateral to receive validator key shares. You will start receiving them simply by remaining online. As new ETHs are staked into Diva, validators will be created, and you will have a chance to receive some of the new randomly assigned key shares.
 
 You can see the currently network stats at [Divascan.io](https://divascan.io/).
 
