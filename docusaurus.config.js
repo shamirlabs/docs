@@ -97,6 +97,11 @@ const config = {
         },
         items: [
           {
+            href: 'https://docs.staking.foundation/',
+            label: 'Diva Staking docs',
+            position: 'right',
+          },
+          {
             href: 'https://shamirlabs.medium.com',
             label: 'Medium',
             position: 'right',
