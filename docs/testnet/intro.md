@@ -14,7 +14,7 @@ The Diva Operator testnet allows you to:
 - Test different client combinations and the performance of validators.
 - Help stress test the system in preparation for Mainnet.
 
-Before you get started, be sure to check the [Hardware requirements](hardware/intro). If your hardware is compatible, you can continue following the instructions to [Join the testnet](install/install).
+Before you get started, be sure to check the [Hardware requirements](hardware/intro). If your hardware is compatible, you can continue following the instructions to [Join the testnet](install).
 
 If you face any issues, check the [known bugs](known-bugs) or ask in the `#operator-testnet` channel of the [Diva community Discord](https://discord.gg/diva).
 

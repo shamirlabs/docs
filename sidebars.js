@@ -43,7 +43,7 @@ const sidebars = {
           label: 'Join the testnet',
           link: {
             type: 'doc',
-            id: 'testnet/install/scripts/scripts',
+            id: 'testnet/install/install',
           },
           items: [
             {

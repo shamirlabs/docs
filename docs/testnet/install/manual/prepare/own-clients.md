@@ -41,4 +41,4 @@ Replace the value `docker-compose.yml` of the `COMPOSE_FILE` with the name of th
 COMPOSE_FILE=docker-compose.yml # Change this (docker compose file name)
 ```
 
-Once you have changed all the above values, continue configuring your node in [Secure your setup](../secure).
+Once you have changed all the above values, continue setting up your node in [configure your setup](../configure).
