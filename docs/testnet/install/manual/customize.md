@@ -1,9 +1,9 @@
 ---
-title: 3. Customize your setup
+title: Customize your setup
 hide_table_of_contents: false
 ---
 
-# Secure your setup
+# Customize your setup
 
 :::info
 These steps are optional in testnet, but highly recommended.
@@ -35,14 +35,13 @@ DIVA_VAULT_PASSWORD=vaultPassword # Change this (password for the encrypted vau
 
 ### TESTNET_USERNAME
 
-Your username helps others identify your node, including devs, to debug any issues they might find. You can choose any username you'd like.
+Configuring a username for the logs helps developers debug issues you might find. You can choose any username you'd like, but we recommend you use the Discord username so we can reach out to you more efficiently if necessary..
 
-Replace the value `username-address` of the `TESTNET_USERNAME` with the user ID that you want to use in the testnet (for instance, `prada`).
+Replace the value `discordusername-operatoraddress` of the `TESTNET_USERNAME` with the discord username that you want to use in the testnet and your operator address (for instance, `prada-0x0000000000000000000000000000000000000000`).
 
 Your username has no functional importance and is purely to label your node with a human-readable name.
 
-
 ```bash
-TESTNET_USERNAME=username-address  # Change this (recommended to username of the operator and ethereum address)
+TESTNET_USERNAME=discordusername-operatoraddress  # Change this (recommended to discord username and ethereum address of the operator)
 ```
 

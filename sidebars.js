@@ -27,32 +27,76 @@ const sidebars = {
       items: [
         {
           type: 'category',
-          label: '0. Hardware requirements',
+          label: 'Hardware requirements',
           collapsed: true,
           link: {
             type: 'doc',
             id: 'testnet/hardware/intro',
           },
           items: [
+            'testnet/hardware/intro',
             'testnet/hardware/requirements'
           ]
         },
-        'testnet/install-docker',
         {
           type: 'category',
-          label: '2. Download Diva',
+          label: 'Join the testnet',
           link: {
             type: 'doc',
-            id: 'testnet/prepare',
+            id: 'testnet/install/scripts/scripts',
           },
           items: [
-            'testnet/prepare/own-clients',
-            'testnet/prepare/new-clients',
+            {
+              type: 'category',
+              label: '1. Choose installation mode',
+              link: {
+                type: 'doc',
+                id: 'testnet/install/install',
+              },
+              items: [
+                {
+                  type: 'category',
+                  label: 'A) Automated installation',
+                  link: {
+                    type: 'doc',
+                    id: 'testnet/install/scripts/scripts',
+                  },
+                  items: [
+                    'testnet/install/scripts/install-docker',
+                    'testnet/install/scripts/install-diva',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'B) Manual installation',
+                  link: {
+                    type: 'doc',
+                    id: 'testnet/install/manual/install-docker',
+                  },
+                  items: [
+                    'testnet/install/manual/install-docker',
+                    {
+                      type: 'category',
+                      label: 'Download Diva',
+                      link: {
+                        type: 'doc',
+                        id: 'testnet/install/manual/prepare',
+                      },
+                      items: [
+                        'testnet/install/manual/prepare/own-clients',
+                        'testnet/install/manual/prepare/new-clients',
+                      ],
+                    },
+                    'testnet/install/manual/customize',
+                    'testnet/install/manual/configure',
+                  ],
+                },
+              ],
+            },
+            'testnet/install/register',
           ],
         },
-        'testnet/customize',
-        'testnet/configure',
-        'testnet/setup',
+        'testnet/update-diva',
         'testnet/known-bugs',
       ],
     },

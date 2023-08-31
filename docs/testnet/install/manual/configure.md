@@ -1,14 +1,9 @@
 ---
-title: 4. Configure ports & run
+title: Configure ports and run
 hide_table_of_contents: false
 ---
 
 # Configure ports and run
-
-:::caution Important Security Notice
-Docker exposes ports of your machine to the public. Please be aware that this setup does not implement any security measures. Running this testnet in an unprotected environment may expose your systems and data to potential risks. It is strongly recommended to deploy Diva in an isolated, secure and controlled network environment.
-:::
-
 
 ### Configure ports
 
@@ -28,4 +23,4 @@ Finally, to run your node, execute the following command:
 docker compose up -d
 ```
 
-Your node should be up and running, ready to continue the setup using the Operator UI as described in [Register your node](/testnet/setup).
+Your node should be up and running, ready to continue the setup using the Operator UI as described in [Register your node](/testnet/install/register).

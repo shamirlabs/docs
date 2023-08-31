@@ -1,5 +1,5 @@
 ---
-title: "A) Use your existing ETH clients"
+title: "Option 1: Run Diva using your existing ETH clients"
 hide_table_of_contents: false
 ---
 
@@ -7,7 +7,7 @@ hide_table_of_contents: false
 
 If you already have an Ethereum client setup, this option is the recommended one for you.
 
-If you're new to Ethereum validation, we recommend you start with the [all-in-one Diva package](new-clients), which will install the needed dependencies automatically.
+If you're new to Ethereum validation, we recommend you start with the [all-in-one Diva with clients mode](new-clients), which will install the needed dependencies automatically.
 
 ## Configure Consensus and Execution endpoints
 
