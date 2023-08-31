@@ -1,5 +1,5 @@
 ---
-title: Register your node
+title: 2. Register your node
 hide_table_of_contents: false
 ---
 
@@ -9,7 +9,7 @@ Follow the instructions of this video to setup and register your node using the 
 
 To do that, you will need to access to the Diva operator web UI in any of two ways:
 
-- Local: http://localhost
+- Local: `http://localhost`
 - Remote: `http://YOUR_NODE_PUBLIC_IP`
 
 If you access to it remotely, remember typing `YOUR_NODE_PUBLIC_IP:30000` when asked for the API URL of your node.

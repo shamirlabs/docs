@@ -6,6 +6,8 @@ hide_table_of_contents: true
 
 # Basic requirements
 
+Diva nodes can run on both physical nodes and cloud services.
+
 Your staking node needs:
 
 - sufficiently powerful hardware

@@ -18,19 +18,6 @@ const sidebars = {
     "welcome",
     {
       type: 'category',
-      label: 'Selecting node hardware',
-      collapsed: true,
-      link: {
-        type: 'doc',
-        id: 'hardware/intro',
-      },
-      items: [
-        'hardware/intro',
-        'hardware/requirements'
-      ]
-    },
-    {
-      type: 'category',
       label: 'Diva Alpha testnet',
       collapsed: false,
       link: {
@@ -38,21 +25,78 @@ const sidebars = {
         id: 'testnet/intro',
       },
       items: [
-        'testnet/install-docker',
         {
           type: 'category',
-          label: 'Prepare your node',
+          label: 'Hardware requirements',
+          collapsed: true,
           link: {
             type: 'doc',
-            id: 'testnet/prepare/prepare',
+            id: 'testnet/hardware/intro',
           },
           items: [
-            'testnet/prepare/own-clients',
-            'testnet/prepare/new-clients',
+            'testnet/hardware/intro',
+            'testnet/hardware/requirements'
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Join the testnet',
+          link: {
+            type: 'doc',
+            id: 'testnet/install/install',
+          },
+          items: [
+            {
+              type: 'category',
+              label: '1. Choose installation mode',
+              link: {
+                type: 'doc',
+                id: 'testnet/install/install',
+              },
+              items: [
+                {
+                  type: 'category',
+                  label: 'A) Automated installation',
+                  link: {
+                    type: 'doc',
+                    id: 'testnet/install/scripts/scripts',
+                  },
+                  items: [
+                    'testnet/install/scripts/install-docker',
+                    'testnet/install/scripts/install-diva',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'B) Manual installation',
+                  link: {
+                    type: 'doc',
+                    id: 'testnet/install/manual/install-docker',
+                  },
+                  items: [
+                    'testnet/install/manual/install-docker',
+                    {
+                      type: 'category',
+                      label: 'Download Diva',
+                      link: {
+                        type: 'doc',
+                        id: 'testnet/install/manual/prepare',
+                      },
+                      items: [
+                        'testnet/install/manual/prepare/own-clients',
+                        'testnet/install/manual/prepare/new-clients',
+                      ],
+                    },
+                    'testnet/install/manual/customize',
+                    'testnet/install/manual/configure',
+                  ],
+                },
+              ],
+            },
+            'testnet/install/register',
           ],
         },
-        'testnet/prepare/configure',
-        'testnet/setup',
+        'testnet/update-diva',
         'testnet/known-bugs',
       ],
     },
