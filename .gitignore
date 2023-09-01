@@ -29,3 +29,6 @@ node_modules
 build
 package-lock.json
 yarn.lock
+
+# IDEs
+.idea
