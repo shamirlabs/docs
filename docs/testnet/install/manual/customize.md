@@ -39,7 +39,7 @@ Configuring a username for the logs helps developers debug issues you might find
 
 Replace the value `discordusername-operatoraddress` of the `TESTNET_USERNAME` with the discord username that you want to use in the testnet and your operator address (for instance, `prada-0x0000000000000000000000000000000000000000`).
 
-Your username has no functional importance and is purely to label your node with a human-readable name.
+Your username has no functional importance and is purely to label your node with a human-readable name. This information is only available to developers and not publicly available.
 
 ```bash
 TESTNET_USERNAME=discordusername-operatoraddress  # Change this (recommended to discord username and ethereum address of the operator)
