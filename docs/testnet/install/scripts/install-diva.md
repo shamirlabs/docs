@@ -8,6 +8,7 @@ hide_table_of_contents: false
 Run the installation script by executing:
 
 ```bash
+cd ~/diva-alpha-net
 ./run.sh
 ```
 
