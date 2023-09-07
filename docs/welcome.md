@@ -13,7 +13,7 @@ Welcome to the comprehensive technical documentation of the Diva Staking protoco
 ## Where do I start?
 
 - [Check the Hardware Requirements](testnet/hardware/intro) to verify that your hardware is compatible with Diva.
-- [Run your Diva node](testnet/install) by following the testnet instructions.
+- [Run your Diva node](testnet/install/download) by following the testnet instructions.
 - [Join the Diva Discord](https://discord.gg/diva) to participate in the community.
 
 You can start by taking a look to the [testnet instructions here](testnet/intro).
