@@ -11,3 +11,5 @@ Type the following commands in the CLI of a UNIX based system to clone this repo
 # Clone the repository
 git clone https://github.com/shamirlabs/diva-alpha-net ~/diva-alpha-net
 ```
+
+Continue installing Diva following the [instructions here](/testnet/install).
