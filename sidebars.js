@@ -15,7 +15,7 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   docs: [
-    "welcome",
+    'welcome',
     {
       type: 'category',
       label: 'Diva Alpha testnet',
@@ -29,26 +29,23 @@ const sidebars = {
           type: 'category',
           label: 'Hardware requirements',
           collapsed: true,
-          link: {
-            type: 'doc',
-            id: 'testnet/hardware/intro',
-          },
           items: [
             'testnet/hardware/intro',
-            'testnet/hardware/requirements'
-          ]
+            'testnet/hardware/requirements',
+          ],
         },
         {
           type: 'category',
           label: 'Join the testnet',
-          link: {
-            type: 'doc',
-            id: 'testnet/install/install',
-          },
           items: [
             {
+              type: 'doc',
+              id: 'testnet/install/download',
+              label: '1. Download Diva',
+            },
+            {
               type: 'category',
-              label: '1. Choose installation mode',
+              label: '2. Choose installation mode',
               link: {
                 type: 'doc',
                 id: 'testnet/install/install',
@@ -57,10 +54,6 @@ const sidebars = {
                 {
                   type: 'category',
                   label: 'A) Automated installation',
-                  link: {
-                    type: 'doc',
-                    id: 'testnet/install/scripts/scripts',
-                  },
                   items: [
                     'testnet/install/scripts/install-docker',
                     'testnet/install/scripts/install-diva',
@@ -69,15 +62,11 @@ const sidebars = {
                 {
                   type: 'category',
                   label: 'B) Manual installation',
-                  link: {
-                    type: 'doc',
-                    id: 'testnet/install/manual/install-docker',
-                  },
                   items: [
                     'testnet/install/manual/install-docker',
                     {
                       type: 'category',
-                      label: 'Download Diva',
+                      label: 'Install Diva',
                       link: {
                         type: 'doc',
                         id: 'testnet/install/manual/prepare',
@@ -93,7 +82,11 @@ const sidebars = {
                 },
               ],
             },
-            'testnet/install/register',
+            {
+              type: 'doc',
+              id: 'testnet/install/register',
+              label: '3. Register your node',
+            },
           ],
         },
         'testnet/update-diva',
