@@ -20,4 +20,6 @@ This installation method connects to locally available Ethereum clients.
 
 Simply follow the instructions in this video and you'll be running in a few minutes:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqYmQh0Zs4U" title="Install Diva via DAppNode package" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style={{textAlign: 'center'}}>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qqYmQh0Zs4U" title="Install Diva via DAppNode package" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>

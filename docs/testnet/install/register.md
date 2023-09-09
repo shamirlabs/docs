@@ -14,7 +14,9 @@ To do that, you will need to access to the Diva operator web UI in any of two wa
 
 If you access to it remotely, remember typing `YOUR_NODE_PUBLIC_IP:30000` when asked for the API URL of your node.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/efkyU2oEygo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style={{textAlign: 'center'}}>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/efkyU2oEygo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## DAppNode package
 
