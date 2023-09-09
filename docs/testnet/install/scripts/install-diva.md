@@ -3,7 +3,7 @@ title: Install Diva
 hide_table_of_contents: false
 ---
 
-#  Install Diva
+# Install Diva
 
 Run the installation script by executing:
 

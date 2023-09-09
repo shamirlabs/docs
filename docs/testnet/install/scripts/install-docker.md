@@ -3,7 +3,7 @@ title: Install Docker
 hide_table_of_contents: false
 ---
 
-#  Install docker
+# Install docker
 
 Run the installation script by executing:
 
