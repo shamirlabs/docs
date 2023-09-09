@@ -22,13 +22,13 @@ EXECUTION_CLIENT_URL=ws://HOST_IP:PORT:PORT # Change this (execution RPC WebSock
 Replace the value `http://HOST_IP:PORT` of `CONSENSUS_CLIENT_URL` with the REST API provider endpoint of your consensus client.
 
 ```bash
-CONSENSUS_CLIENT_URL=http://HOST_IP:PORT # Change this (consensus REST API, prysm example: http://HOST_IP:3500)
+CONSENSUS_CLIENT_URL=http://HOST_IP:PORT # Change this (consensus REST API, prysm example: http://HOST_IP:3500)
 ```
 
 Replace the value `HOST_IP:PORT` of the `BEACON_RPC_PROVIDER` with the RPC provider endpoint of your consensus client.
 
 ```bash
-BEACON_RPC_PROVIDER=HOST_IP:PORT # Change this (consensus RPC, prysm example: http://HOST_IP:4000)
+BEACON_RPC_PROVIDER=HOST_IP:PORT # Change this (consensus RPC, prysm example: http://HOST_IP:4000)
 ```
 
 ### COMPOSE_FILE
