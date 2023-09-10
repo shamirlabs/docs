@@ -58,7 +58,7 @@ const sidebars = {
                 {
                   type: 'doc',
                   id: 'testnet/install/dappnode',
-                  label: 'B) Dappnode package',
+                  label: 'B) DAppNode package',
                 },
                 {
                   type: 'category',

@@ -3,7 +3,7 @@ title: Update Diva
 hide_table_of_contents: false
 ---
 
-#  Update Diva
+# Update Diva
 
 Run the installation script by executing:
 
