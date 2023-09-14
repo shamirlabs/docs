@@ -31,14 +31,19 @@ Replace the value `HOST_IP:PORT` of the `BEACON_RPC_PROVIDER` with the RPC provi
 BEACON_RPC_PROVIDER=HOST_IP:PORT # Change this (consensus RPC, prysm example: http://HOST_IP:4000)
 ```
 
-### COMPOSE_FILE
+### COMPOSE_PROFILES
 
-The Diva Testnet repository comes with a few examples of docker compose files.
+The Diva Testnet repository comes with some docker compose profiles.
 
-Replace the value `docker-compose.yml` of the `COMPOSE_FILE` with the name of the docker compose file that you want to use).
+Replace the value `telemetry` of the `COMPOSE_PROFILES` with the name of the docker compose profiles that you want to use, separated by commas and without spaces.
+
+The possible values are:
+- `clients`: to run Geth and Prysm clients
+- `metrics`: to monitor your clients with Grafana
+- `telemetry`: to help us monitor and improve the testnet
 
 ```bash
-COMPOSE_FILE=docker-compose.yml # Change this (docker compose file name)
+COMPOSE_PROFILES=telemetry # Change this (docker profiles: clients, metrics, telemetry)
 ```
 
 Once you have changed all the above values, continue setting up your node in [configure your setup](../configure).

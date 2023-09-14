@@ -14,7 +14,11 @@ It is simpler to set up, although it will take a few hours for your Ethereum cli
 First, you rename the file `.env.example` to `.env` and change the following values of the file:
 
 ```bash
-COMPOSE_FILE=docker-compose-with-clients-metrics.yml
+COMPOSE_PROFILES=clients,metrics,telemetry
+
+EXECUTION_CLIENT_URL=ws://geth:8546
+CONSENSUS_CLIENT_URL=http://beacon:3500
+BEACON_RPC_PROVIDER=beacon:4000
 ```
 
 This file is preconfigured to install the necessary Ethereum clients as dependencies. It contains:
