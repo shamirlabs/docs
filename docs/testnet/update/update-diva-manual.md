@@ -3,27 +3,7 @@ title: Update Diva
 hide_table_of_contents: false
 ---
 
-#  Update Diva
-
-
-## 1. Using the scripts
-
-Please note this is only available for those with the latest versions of the docker compose for diva-alpha-net.
-Run the installation script by executing:
-
-```bash
-cd ~/diva-alpha-net
-./run.sh
-```
-
-inside the `diva-alpha-net` folder, and select option `2. Update Diva`:
-
-<div style={{textAlign: 'center'}}>
-    <img src={require("./img/update.png").default}  width="300"/>
-</div>
-
-
-## 2. Manual  
+#  Update Diva manually
 
 For the first versions of the diva-alpha-net repository, or if you are having issues with the automatic update from the section above, you can always use the manual update/migration:
 - Diva DB
