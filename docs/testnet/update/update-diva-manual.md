@@ -10,7 +10,7 @@ For the first versions of the diva-alpha-net repository, or if you are having is
 - Diva DB Password
 - Your Ethereum client folders (optional)
 
-### 1. Stop the current one
+### 1. Stop the current diva-alpha-net
 
 Stop your current docker-compose file from your original diva folder (diva-alpha-net):
 
@@ -24,7 +24,7 @@ If you used other than docker-compose.yml as 'docker-compose-with-clients-metric
 docker compose -f docker-compose-with-clients-metrics.yml down 
 ```
 
-### 2. Create a new one
+### 2. Create a new diva-alpha-net
 
 Create a fresh Diva (in a different folder of your choice):
 Assuming you are in your current diva folder, let's move to the parent directory
