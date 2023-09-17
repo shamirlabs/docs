@@ -20,5 +20,9 @@ In order to install Docker, choose an option:
 You can also use the following commands to install Docker in a Linux machine like Ubuntu|Debian|CentOS|Fedora:
 
 ```bash
-sudo curl -fsSL https://get.docker.com | bash
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+sudo groupadd docker
+sudo usermod -aG docker $USER
 ```
