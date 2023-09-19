@@ -18,7 +18,7 @@ Your Diva API key is the password you'll use to log into your Diva node API. You
 Replace the value `changeThis` of the `DIVA_API_KEY` with the password that you want to use.
 
 ```bash
-DIVA_API_KEY=changeThis  # Change this (API key for the operator UI)
+DIVA_API_KEY=changeThis # Change this (API key for the operator UI)
 ```
 
 ### DIVA_VAULT_PASSWORD
@@ -30,7 +30,7 @@ Be aware that once this parameter is set during the bootstraping of the node, yo
 Replace the value `vaultPassword` of the `DIVA_VAULT_PASSWORD` with the password you'd like to use.
 
 ```bash
-DIVA_VAULT_PASSWORD=vaultPassword # Change this (password for the encrypted vault)
+DIVA_VAULT_PASSWORD=vaultPassword # Change this (password for the encrypted vault)
 ```
 
 ### TESTNET_USERNAME
@@ -42,6 +42,6 @@ Replace the value `discordusername-operatoraddress` of the `TESTNET_USERNAME` wi
 Your username has no functional importance and is purely to label your node with a human-readable name.
 
 ```bash
-TESTNET_USERNAME=discordusername-operatoraddress  # Change this (recommended to discord username and ethereum address of the operator)
+TESTNET_USERNAME=discordusername-operatoraddress # Change this (recommended to discord username and ethereum address of the operator)
 ```
 

@@ -39,13 +39,8 @@ const sidebars = {
           label: 'Join the testnet',
           items: [
             {
-              type: 'doc',
-              id: 'testnet/install/download',
-              label: '1. Download Diva',
-            },
-            {
               type: 'category',
-              label: '2. Choose installation mode',
+              label: '1. Choose mode',
               link: {
                 type: 'doc',
                 id: 'testnet/install/install',
@@ -55,14 +50,21 @@ const sidebars = {
                   type: 'category',
                   label: 'A) Automated installation',
                   items: [
+                    'testnet/install/scripts/download',
                     'testnet/install/scripts/install-docker',
                     'testnet/install/scripts/install-diva',
                   ],
                 },
                 {
+                  type: 'doc',
+                  id: 'testnet/install/dappnode',
+                  label: 'B) DAppNode package',
+                },
+                {
                   type: 'category',
-                  label: 'B) Manual installation',
+                  label: 'C) Manual installation',
                   items: [
+                    'testnet/install/manual/download',
                     'testnet/install/manual/install-docker',
                     {
                       type: 'category',
@@ -85,7 +87,7 @@ const sidebars = {
             {
               type: 'doc',
               id: 'testnet/install/register',
-              label: '3. Register your node',
+              label: '2. Register your node',
             },
           ],
         },

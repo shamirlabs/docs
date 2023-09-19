@@ -3,7 +3,7 @@ title: Install Docker
 hide_table_of_contents: false
 ---
 
-#  Install docker
+# Install docker
 
 The [testnet Github repository](https://github.com/shamirlabs/diva-alpha-net) contains Docker compose files that can be run using [Docker](https://www.docker.com/). Keep in mind that currently we provide only `linux/amd64` images.
 
