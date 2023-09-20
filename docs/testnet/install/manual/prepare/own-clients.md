@@ -16,7 +16,7 @@ First, you **MUST** rename the file `.env.example` to `.env` and change the foll
 Replace the value `ws://HOST_IP:PORT` of `EXECUTION_CLIENT_URL` with the WebSocket endpoint of your execution client.
 
 ```bash
-EXECUTION_CLIENT_URL=ws://HOST_IP:PORT:PORT  # Change this (execution RPC WebSocket, geth example: ws://HOST_IP:PORT:8546)
+EXECUTION_CLIENT_URL=ws://HOST_IP:PORT  # Change this (execution RPC WebSocket, geth example: ws://HOST_IP:8546)
 ```
 
 Replace the value `http://HOST_IP:PORT` of `CONSENSUS_CLIENT_URL` with the REST API provider endpoint of your consensus client.
