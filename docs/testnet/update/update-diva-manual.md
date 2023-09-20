@@ -5,68 +5,60 @@ hide_table_of_contents: false
 
 #  Update Diva manually
 
- Manual migration/update is always a useful option for any version of diva-alpha-net. For the earliest versions of the diva-alpha-net it is needed for the upload since automatic scripts are not backward compatible. 
+ Manual migration/update is always a useful option for any version of diva-alpha-net. For early testnet versions, automatic scripts are not backward compatible, and a manual upgrade is required. 
 
 ### 1. Get the new version of diva-alpha-net 
 
-Stop the current docker-compose file from the original diva folder:
+Stop the current docker-compose file navigating to the original diva folder:
 
 ```bash
 cd ~/diva-alpha-net
 docker compose down 
 ```
 
-If other file than 'docker-compose.yml' was used, as 'docker-compose-with-clients-metrics.yml' it can be specified as bellow: 
+If any file other than `docker-compose.yml` was used (as for example `docker-compose-with-clients-metrics.yml`), it can be specified as follows: 
 
 ```bash
 docker compose -f docker-compose-with-clients-metrics.yml down 
 ```
 
-Create a backup for the whole directory where the diva-alpha-net was running from:
+Create a backup of the whole directory where the diva-alpha-net was running by moving it to another folder:
+
 ```bash
 mv ~/diva-alpha-net ~/diva-alpha-net-bak
 ```
 
-And then create a fresh diva-aplha-net folder:
+And then, clone a fresh diva-aplha-net to the parent folder:
 
 ```bash
-cd ~
-git clone https://github.com/shamirlabs/diva-alpha-net/  
+git clone https://github.com/shamirlabs/diva-alpha-net ~/diva-alpha-net
 ```
 
-Start diva so a new .env file is generate
+Initialize a new `.env` from the provided `.env.example` template file:
 ```bash
-cd ~/diva-alpha-net
-docker compose up -d
+cp ~/diva-alpha-net/.env.example ~/diva-alpha-net/.env 
 ```
 
 ### 2. Migrate the data
 
-Copy the .diva folder from the diva-alpha-net-bak folder and paste it in the new one
+Copy the `.diva` folder from the `~/diva-alpha-net-bak` folder to the new folder `~/diva-alpha-net`:
 
 ```bash
-cp -r ./diva-alpha-net-bak/.diva ./diva-alpha-net/.diva
+cp -r ~/diva-alpha-net-bak/.diva ~/diva-alpha-net/.diva
 ```
 
-Look for the value of the ``DIVA_VAULT_PASSWORD`` and paste it in the ``.env`` file in the new folder
+Look for the value of the `DIVA_VAULT_PASSWORD` and paste it in the `.env` file in the new folder.
 
-The ``DIVA_VAULT_PASSWORD`` depending on the version used can be in:
- - The docker compose file, as environment variable within the diva service, it could any of the following:
-        - docker-compose.yml
-        - docker-compose-with-clients.yml
-        - docker-compose-with-clients-metrics.yml
-- In latest versions, it can be found in the ``.env`` file
-
-Optionally the /geth and /prysm folders can be copied from the original folder to the new one so Ethereum clients will remain in the same syncing state for the new diva-alpha-net as they were before in the old one:
-
-```bash
-cp -r ./diva-alpha-net-bak/geth ./diva-alpha-net/geth && cp -r ./diva-alpha-net-bak/prysm ./diva-alpha-net/prysm
-
-```
+Depending on the version used, the `DIVA_VAULT_PASSWORD` can be at:
+- As an environment variable in any of the following docker compose files:
+  - `docker-compose.yml`
+  - `docker-compose-with-clients.yml`
+  - `docker-compose-with-clients-metrics.yml`
+- In latest versions, it can be found in the `.env` file.
 
 ### 3. Done
 
-Since new environment variables has been set, it is needed to stop and delete all the containers and then, start them again:
+You must stop and delete all the containers before starting the services again. 
 
 ```bash
 docker compose down
