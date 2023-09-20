@@ -89,7 +89,22 @@ const sidebars = {
             },
           ],
         },
-        'testnet/update-diva',
+        {
+          type: 'category',
+          label: 'Update',
+          items: [
+            {
+              type: 'doc',
+              id: 'testnet/update/update-diva-auto',
+              label: 'Update automatically',
+            },
+            {
+              type: 'doc',
+              id: 'testnet/update/update-diva-manual',
+              label: 'Update manually',
+            }
+          ]
+        },
         'testnet/known-bugs',
       ],
     },
