@@ -26,6 +26,8 @@ In future testnet releases, you will be required to post ETH collateral to recei
 
 ## Next steps
 
+Check [Divascan.io](https://divascan.io) to view live testnet statistics. If everything worked well, you should find your node there!
+
 During the Diva testnet, it's important that you always keep your node up to date with the latest version. See the [Update your node](update/update-diva-auto) section.
 
 Failing to update might mean you stop receiving keyshares and you will degrade the overall network performance (which relies on your DVT).
