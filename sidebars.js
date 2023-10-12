@@ -87,11 +87,16 @@ const sidebars = {
               id: 'testnet/install/register',
               label: '3. Register your node',
             },
+            {
+              type: 'doc',
+              id: 'testnet/install/validate',
+              label: '4. Start validating',
+            },
           ],
         },
         {
           type: 'category',
-          label: 'Update',
+          label: 'Update your node',
           items: [
             {
               type: 'doc',
