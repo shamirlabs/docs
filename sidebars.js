@@ -36,7 +36,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Join the testnet',
+          label: 'Install the testnet',
           items: [
             {
               type: 'doc',
@@ -90,8 +90,13 @@ const sidebars = {
           ],
         },
         {
+          type: 'doc',
+          id: 'testnet/validate',
+          label: 'Start validating',
+        },
+        {
           type: 'category',
-          label: 'Update',
+          label: 'Update your node',
           items: [
             {
               type: 'doc',
