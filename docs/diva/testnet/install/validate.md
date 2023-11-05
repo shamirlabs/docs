@@ -22,6 +22,6 @@ If you'd like to increase the chances of receiving a key share, you can [stake m
 
 You can check [divascan.io](https://divascan.io) to view live testnet statistics. If everything works well, you should find your node there!
 
-During the Diva testnet, it is crucial that you keep your node updated with the latest version. Read carefully the [Update your node](../update/update-diva-auto) section and remember to follow the [#operator-announcements channel](https://discord.gg/diva) on Diva's Discord. Failing to update might mean you stop receiving key shares, and you will degrade the overall network performance (which relies on your DVT node).
+During the Diva testnet, it is crucial that you keep your node updated with the latest version. Read carefully the [Update your node](../update/auto) section and remember to follow the [#operator-announcements channel](https://discord.gg/diva) on Diva's Discord. Failing to update might mean you stop receiving key shares, and you will degrade the overall network performance (which relies on your DVT node).
 
 The Diva testnet is still adding features and evolving, so enjoy the ride!

@@ -121,17 +121,17 @@ const sidebars = {
               label: 'Update your node',
               link: {
                 type: 'doc',
-                id: 'diva/testnet/update/update-diva-auto',
+                id: 'diva/testnet/update/auto',
               },
               items: [
                 {
                   type: 'doc',
-                  id: 'diva/testnet/update/update-diva-auto',
+                  id: 'diva/testnet/update/auto',
                   label: 'Update automatically',
                 },
                 {
                   type: 'doc',
-                  id: 'diva/testnet/update/update-diva-manual',
+                  id: 'diva/testnet/update/manual',
                   label: 'Update manually',
                 }
               ]
