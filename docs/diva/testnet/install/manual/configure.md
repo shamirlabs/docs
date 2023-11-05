@@ -23,4 +23,4 @@ Finally, to run your node, execute the following command:
 docker compose up -d
 ```
 
-Your node should be up and running, ready to continue the setup using the Operator UI as described in [Register your node](/testnet/install/register).
+Your node should be up and running, ready to continue the setup using the Operator UI as described in [Register your node](/diva/testnet/install/register).

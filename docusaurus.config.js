@@ -1,8 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import {themes as prismThemes} from 'prism-react-renderer';
 
 const math = require('remark-math');
 const katex = require('rehype-katex');
@@ -34,7 +33,7 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         sitemap: {
           changefreq: 'weekly',
@@ -69,6 +68,7 @@ const config = {
     },
   ],
 
+  // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({    colorMode: {
@@ -76,15 +76,32 @@ const config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'XVFZVSM9AL',
+      // Public API key: it is safe to commit it
+      apiKey: '2eae2ed8654db4a850f3d287ad4cfd7c',
+      indexName: 'shamirlabs',
+      // Optional: see doc section below
+      contextualSearch: true,
+      insights: true,
+    },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+        hideable: true,
+      },
+    },
 
+    insights: true, // Optional, automatically send insights when user interacts with search results
       metadata: [
-        { name: 'og:image', content: 'https://shamirlabs.org/shamir.png' },
-        { name: 'twitter:image', content: 'https://shamirlabs.org/shamir.png' },
+        {name: 'og:image', content: 'https://shamirlabs.org/shamir.png' },
+        {name: 'twitter:image', content: 'https://shamirlabs.org/shamir.png' },
         {name: 'og:title', content: 'Technical documentation of the Diva Staking protocol'},
         {name: 'og:description', content: 'This documentation is designed to provide a detailed insight into the testnet environment, technical overviews, and intricate protocol details'},
         {name: 'description', content: 'This documentation is designed to provide a detailed insight into the testnet environment, technical overviews, and intricate protocol details'},
         {name: 'twitter:card', content: 'summary_large_image'},
-        {name: 'twitter:url', content: 'https://shamirlabs.org.org/'},
+        {name: 'twitter:url', content: 'https://twitter.com/shamirlabs'},
         {name: 'og:url', content: 'https://shamirlabs.org/'},
         {name: 'twitter:title', content: 'Technical documentation of the Diva Staking protocol'},
         {name: 'twitter:description', content: 'This documentation is designed to provide a detailed insight into the testnet environment, technical overviews, and intricate protocol details'}
@@ -123,8 +140,8 @@ const config = {
                 to: 'https://stake.diva.community',
               },
               {
-                label: 'Staking Foundation doc',
-                to: 'https://docs.staking.foundation',
+                label: 'Diva Staking website',
+                to: 'https://divastaking.com',
               },
             ],
           },
@@ -148,8 +165,8 @@ const config = {
         ],
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
       tableOfContents: {
         minHeadingLevel: 2,
