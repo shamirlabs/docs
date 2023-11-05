@@ -15,113 +15,130 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   docs: [
-    'welcome',
     {
       type: 'category',
-      label: 'Diva Alpha testnet',
+      label: 'Diva Staking protocol',
       collapsed: false,
       link: {
         type: 'doc',
-        id: 'testnet/intro',
+        id: 'introduction',
       },
       items: [
+        // "introduction",
         {
           type: 'category',
-          label: 'Hardware requirements',
+          label: 'Protocol specifications',
+          link: {
+            type: 'generated-index',
+          },
           collapsed: true,
           items: [
-            'testnet/hardware/intro',
-            'testnet/hardware/requirements',
+            'diva/specs/intro',
           ],
         },
         {
           type: 'category',
           label: 'Join the testnet',
+          link: {
+            type: 'doc',
+            id: 'diva/testnet/intro',
+          },
+          collapsed: false,
           items: [
             {
-              type: 'doc',
-              id: 'testnet/install/download',
-              label: '1. Download Diva',
+              type: 'category',
+              label: 'Hardware requirements',
+              link: {
+                type: 'doc',
+                id: 'diva/testnet/hardware/intro',
+              },
+              collapsed: true,
+              items: [
+                'diva/testnet/hardware/requirements',
+              ],
             },
             {
               type: 'category',
-              label: '2. Choose installation mode',
               link: {
                 type: 'doc',
-                id: 'testnet/install/install',
+                id: 'diva/testnet/install/download',
               },
+              label: 'Run a node',
               items: [
                 {
                   type: 'category',
-                  label: 'A) Automated installation',
+                  label: '1. Choose installation mode',
+                  link: {
+                    type: 'doc',
+                    id: 'diva/testnet/install/download',
+                  },
                   items: [
-                    'testnet/install/scripts/install-docker',
-                    'testnet/install/scripts/install-diva',
+                    {
+                      type: 'category',
+                      label: 'A) Automated installation',
+                      items: [
+                        'diva/testnet/install/scripts/docker',
+                        'diva/testnet/install/scripts/diva',
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'B) Manual installation',
+                      items: [
+                        'diva/testnet/install/manual/docker',
+                        {
+                          type: 'category',
+                          label: 'Install Diva',
+                          link: {
+                            type: 'doc',
+                            id: 'diva/testnet/install/manual/prepare',
+                          },
+                          items: [
+                            'diva/testnet/install/manual/prepare/own-clients',
+                            'diva/testnet/install/manual/prepare/new-clients',
+                          ],
+                        },
+                        'diva/testnet/install/manual/customize',
+                        'diva/testnet/install/manual/configure',
+                      ],
+                    },
                   ],
                 },
                 {
-                  type: 'category',
-                  label: 'B) Manual installation',
-                  items: [
-                    'testnet/install/manual/install-docker',
-                    {
-                      type: 'category',
-                      label: 'Install Diva',
-                      link: {
-                        type: 'doc',
-                        id: 'testnet/install/manual/prepare',
-                      },
-                      items: [
-                        'testnet/install/manual/prepare/own-clients',
-                        'testnet/install/manual/prepare/new-clients',
-                      ],
-                    },
-                    'testnet/install/manual/customize',
-                    'testnet/install/manual/configure',
-                  ],
+                  type: 'doc',
+                  id: 'diva/testnet/install/register',
+                  label: '2. Register your node',
+                },
+                {
+                  type: 'doc',
+                  id: 'diva/testnet/install/validate',
+                  label: '3. Start validating',
                 },
               ],
             },
             {
-              type: 'doc',
-              id: 'testnet/install/register',
-              label: '3. Register your node',
+              type: 'category',
+              label: 'Update your node',
+              link: {
+                type: 'doc',
+                id: 'diva/testnet/update/update-diva-auto',
+              },
+              items: [
+                {
+                  type: 'doc',
+                  id: 'diva/testnet/update/update-diva-auto',
+                  label: 'Update automatically',
+                },
+                {
+                  type: 'doc',
+                  id: 'diva/testnet/update/update-diva-manual',
+                  label: 'Update manually',
+                }
+              ]
             },
-            {
-              type: 'doc',
-              id: 'testnet/install/validate',
-              label: '4. Start validating',
-            },
+            'diva/testnet/known-bugs',
           ],
         },
-        {
-          type: 'category',
-          label: 'Update your node',
-          items: [
-            {
-              type: 'doc',
-              id: 'testnet/update/update-diva-auto',
-              label: 'Update automatically',
-            },
-            {
-              type: 'doc',
-              id: 'testnet/update/update-diva-manual',
-              label: 'Update manually',
-            }
-          ]
-        },
-        'testnet/known-bugs',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Protocol specifications',
-      link: {
-        type: 'generated-index',
-      },
-      collapsed: true,
-      items: [
-        'specs/intro',
       ],
     },
   ],

@@ -42,7 +42,7 @@ When asked, type the password that you will use to connect to your node:
     <img src={require("./img/password.png").default}  width="360"/>
 </div>
 
-When asked, your Discord username and your operator (testnet) address in the format `discordusername-operatoraddress`:
+When asked, your Discord username and your operator (diva/testnet) address in the format `discordusername-operatoraddress`:
 
 <div style={{textAlign: 'center'}}>
     <img src={require("./img/username.png").default}  width="360"/>

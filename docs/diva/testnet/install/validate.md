@@ -8,7 +8,7 @@ Congratulations on [installing your Diva node](download)!
 
 In Diva, all ETH deposits are bundled to create Ethereum validators with 32 ETHs each. Once a new validator is created, the Diva smart contract will coordinate the generation of validator key shares managed by Diva nodes like you.
 
-Diva nodes need to post enough collateral (in the form of ETH of divETH) to the Diva smart contract to become eligible for generating key shares. As explained below, Diva does not require collateral in the current testnet version. You can read more about Diva Operators in the [general Diva documentation](https://docs.staking.foundation/operators) of the Staking Foundation.
+Diva nodes need to post enough collateral (in the form of ETH of divETH) to the Diva smart contract to become eligible for generating key shares. As explained below, Diva does not require collateral in the current testnet version. You can read more about Diva Operators in the [general Diva Staking documentation](https://docs.divastaking.com/operators) independently maintained by the Staking Foundation.
 
 ## How to receive validator keys
 
