@@ -34,6 +34,7 @@ const sidebars = {
           collapsed: true,
           items: [
             'diva/specs/intro',
+            'diva/specs/dvt',
           ],
         },
         {

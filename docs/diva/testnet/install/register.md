@@ -18,4 +18,6 @@ Having issues? Ask in #operator-testnet of [Diva's community Discord](https://di
 
 Once your node is registered, you can [start validating!](validate)
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/efkyU2oEygo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
