@@ -8,7 +8,7 @@ hide_table_of_contents: false
 
 # Diva Staking protocol
 
-Welcome to the comprehensive technical documentation of the Diva Staking protocol, designed to provide a detailed insight into the testnet environment, technical overviews, and intricate protocol details. Whether you're a developer, enthusiast, or simply curious about the inner workings of DIVA, this documentation aims to shed light on the intricacies of the system. From navigating the testnet to diving into the protocol's underlying mechanisms, you'll find information here to help you grasp the essence of the Diva Staking protocol. You can also find additional documentation independently maintained by the Staking Foundation [here](https://docs.divastaking.com).
+Welcome to the comprehensive technical documentation of the Diva Staking protocol, designed to provide a detailed insight into the testnet environment, technical overviews, and intricate protocol details. Whether you're a developer, enthusiast, or simply curious about the inner workings of DIVA, this documentation aims to shed light on the system's intricacies. From navigating the testnet to diving into the protocol's underlying mechanisms, you'll find information here to help you grasp the essence of the Diva Staking protocol. You can also find additional documentation independently maintained by the Staking Foundation [here](https://docs.divastaking.com).
 
 ## Where do I start?
 
@@ -16,13 +16,13 @@ Welcome to the comprehensive technical documentation of the Diva Staking protoco
 - [Run your Diva node](diva/testnet/install/download) by following the testnet instructions.
 - [Join the Diva Discord](https://discord.gg/diva) to participate in the community.
 
-You can start by taking a look to the [testnet instructions here](diva/testnet/intro).
+You can start by looking at the [testnet instructions here](diva/testnet/intro).
 
 ## Contribution guidelines
 
 ### Enhance this documentation
 
-You can contribute by editing the files in the folder `/docs` of the [docs Github repository](https://github.com/shamirlabs/docs). To properly generate the sidebar, remember editing the file `/sidebars.js` accordingly. When you are done, open a pull request with the suggested changes.
+You can contribute by editing the files in the folder `/docs` of the [docs Github repository](https://github.com/shamirlabs/docs). To generate the sidebar properly, remember to edit the file `/sidebars.js`. When you are done, open a pull request with the suggested changes.
 
 ### Improve scripts and Docker containers
 
