@@ -16,6 +16,6 @@ Your staking node needs:
 
 The hardware you will need depends on how you are running Diva. Diva itself is not very computationally intensive, but it requires that you are running a full node. This means you will need enough storage space to store the entire blockchain and enough bandwidth to keep up with the network.
 
-To that end, the hardware you will need depends on whether you are already running an Ethereum consensus or execution client. If you are, then running Diva will take very little additional resources. If you are not running one yet, this documentation assumes you must prepare your node device to run Diva and the requisite Ethereum clients.
+To that end, the hardware you will need depends on whether you are already running an Ethereum consensus or execution client. If you are, then running Diva will take very little additional resources. If you are not running one yet, this documentation assumes you must prepare your device to run Diva and the requisite Ethereum clients.
 
 If you are not sure about the hardware that you should get, navigate to the ["Choosing Hardware"](requirements) section.
