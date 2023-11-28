@@ -19,6 +19,40 @@ However, as of Aug 21st, there is [a concurrency issue preventing the creation o
 
 A new Diva client release will be released soon fixing this bug. Please follow [#testnet-announcements on Discord](https://discord.com/channels/1041618287500460083/1139972545144160256) to know once the new release is out!
 
+## Port issues 
+
+After the installation of the Diva Client is complete, some issues with ports may occur, especially those related to ports 30000 and 5050. 
+For more information, please refer to the following link [Diva Client installation and configuration documentation](https://docs.shamirlabs.org/diva/testnet/install/manual/configure/).
+
+## "Not-registered" errors message on the Operator UI 
+
+![not-registered](https://github.com/BitcoinVida/DivaDocs/assets/55251206/116a2382-437a-4100-89b9-db16d33a9d88)
+
+
+If your node status appears as 'not-registered', it indicates that the node is still syncing. Please wait for the process to complete.
+This process may take up to 24 hours.
+
+## Switch to the correct account
+
+![switch-correct-account](https://github.com/BitcoinVida/DivaDocs/assets/55251206/f2bedf76-317d-4647-b336-2ed4520a161c)
+
+
+Your Node is still syncing, a process that typically may take up to 24 hours. After that, this message will disappear.
+
+## Negative rewards 
+
+![negative-rewards](https://github.com/BitcoinVida/DivaDocs/assets/55251206/903edd45-f1cf-478e-a076-13c8ab2eba58)
+
+Negative rewards occur because many nodes are down, which consequently leads to the downtime of numerous validators.
+For more information and to follow their performance, visit [Divascan.io](https://divascan.io/).
+
+## Repository Entity Already Exists 
+
+![repository-already-exists](https://github.com/BitcoinVida/DivaDocs/assets/55251206/6a3c4128-7252-4f5e-84f8-0f07a927fc78)
+
+When reinstalling the node, operators may encounter conflicts or issues due to the previous installation.
+To resolve this issue, it is necessary to delete all directories and start the installation process from scratch. 
+**Important:** Be sure to backup your node identity before proceeding. Without this backup, you will not be able to restore your node.
 
 ## Report other issues
 
