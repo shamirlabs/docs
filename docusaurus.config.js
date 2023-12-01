@@ -17,6 +17,12 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/shamirlabs.png',
 
+  // "false" generates testnet/intro.html instead of testnet/intro/index.html
+  // when deployed to cloudflare pages, /testnet/intro gets redirected to /testnet/intro/
+  // and relative links on the page don't work when the page is refreshed
+  // cloudflare page serves testnet/intro.html at /testnet/intro
+  trailingSlash: false,
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'shamirlabs', // Usually your GitHub org/user name.
