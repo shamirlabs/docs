@@ -26,7 +26,7 @@ For more information, please refer to the following link [Diva Client installati
 
 ## "Not-registered" errors message on the Operator UI 
 
-![not-registered](https://github.com/BitcoinVida/DivaDocs/assets/55251206/116a2382-437a-4100-89b9-db16d33a9d88)
+![notregistered](https://github.com/BitcoinVida/DivaDocs/blob/nikomybranch/docs/img/notregistered.png)
 
 
 If your node status appears as 'not-registered', it indicates that the node is still syncing. Please wait for the process to complete.
@@ -34,21 +34,21 @@ This process may take up to 24 hours.
 
 ## Switch to the correct account
 
-![switch-correct-account](https://github.com/BitcoinVida/DivaDocs/assets/55251206/f2bedf76-317d-4647-b336-2ed4520a161c)
+![switchaccount](https://github.com/BitcoinVida/DivaDocs/blob/nikomybranch/docs/img/switchaccount.png)
 
 
 Your Node is still syncing, a process that typically may take up to 24 hours. After that, this message will disappear.
 
 ## Negative rewards 
 
-![negative-rewards](https://github.com/BitcoinVida/DivaDocs/assets/55251206/903edd45-f1cf-478e-a076-13c8ab2eba58)
+![negativerewards](https://github.com/BitcoinVida/DivaDocs/blob/nikomybranch/docs/img/negativerewards.png)
 
 Negative rewards occur because many nodes are down, which consequently leads to the downtime of numerous validators.
 For more information and to follow their performance, visit [Divascan.io](https://divascan.io/).
 
 ## Repository Entity Already Exists 
 
-![repository-already-exists](https://github.com/BitcoinVida/DivaDocs/assets/55251206/6a3c4128-7252-4f5e-84f8-0f07a927fc78)
+![repositoryexists](https://github.com/BitcoinVida/DivaDocs/blob/nikomybranch/docs/img/repositoryexists.png)
 
 When reinstalling the node, operators may encounter conflicts or issues due to the previous installation.
 To resolve this issue, it is necessary to delete all directories and start the installation process from scratch. 
