@@ -7,7 +7,7 @@ hide_table_of_contents: false
 
 Follow the instructions of this video to setup and register your node using the Diva Operator web UI.
 
-To do that, you will need to access to the Diva operator web UI in any of two ways:
+To do that, you will need to access the Diva operator web UI in any of two ways:
 
 - Local: `http://localhost`
 - Remote: `http://YOUR_NODE_PUBLIC_IP`
