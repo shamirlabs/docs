@@ -41,9 +41,9 @@ The amount of RAM you need depends a bit on which specific Ethereum clients you 
 1. Is an M2 NVMe drive
 2. Has a DRAM cache
 3. Is not QLC, but instead TLC, SLC, or MLC. This refers to the storage technology used, QLC is cheaper but too slow for Ethereum nodes
-4. Is at least 2TB in size, but 4TB is recommended so you do not have less worries in your long term maintenance
+4. Is at least 2TB in size, but 4TB is recommended so you do not have fewer worries in your long term maintenance
 
-Do you have a drive and want to check it it is fast enough? On a Linux machine, can use the `fio` utility like so:
+Do you have a drive and want to check if it is fast enough? On a Linux machine, can use the `fio` utility like so:
 
 ```bash
 
