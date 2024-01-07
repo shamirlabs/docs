@@ -24,4 +24,4 @@ Once the installation is completed, logout and login again by executing in the C
 logout
 ```
 
-After you login again to your machine, follow the instructions of how to [Install Diva](diva).
+After you login again to your machine, follow the instructions on how to [Install Diva](diva).

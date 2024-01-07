@@ -25,7 +25,7 @@ DIVA_API_KEY=changeThis  # Change this (API key for the operator UI)
 
 This password is used to encrypt the database of your node and could be useful to restore your node in the future.
 
-Be aware that once this parameter is set during the bootstraping of the node, you won't be able to change it until such functionality is implemented. For that reason we recommend that you back it up in a safe place.
+Be aware that once this parameter is set during the bootstrapping of the node, you won't be able to change it until such functionality is implemented. For that reason we recommend that you back it up in a safe place.
 
 Replace the value `vaultPassword` of the `DIVA_VAULT_PASSWORD` with the password you'd like to use.
 
