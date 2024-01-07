@@ -13,7 +13,7 @@ This page is a work in progress, and it contains a written version of the talk t
   <div>
     <br/>
     <center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/IHgMk15g2D4?si=PCQ8xhXX8vAYSkNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hdDsqMeJyb0?si=QIy7YF4Lwe_21MMT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </center>
   </div>
 </details>
