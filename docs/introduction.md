@@ -8,7 +8,7 @@ hide_table_of_contents: false
 
 # Diva Staking protocol
 
-Welcome to the comprehensive technical documentation of the Diva Staking protocol, designed to provide a detailed insight into the testnet environment, technical overviews, and intricate protocol details. Whether you're a developer, enthusiast, or simply curious about the inner workings of DIVA, this documentation aims to shed light on the system's intricacies. From navigating the testnet to diving into the protocol's underlying mechanisms, you'll find information here to help you grasp the essence of the Diva Staking protocol. You can also find additional documentation independently maintained by the Staking Foundation [here](https://docs.divastaking.com).
+Welcome to the comprehensive technical documentation of the Diva Staking protocol, designed to provide a detailed insight into the testnet environment, technical overviews, and intricate protocol details. Whether you're a developer, enthusiast, or simply curious about the inner workings of DIVA, this documentation aims to shed light on the system's intricacies. From navigating the testnet to diving into the protocol's underlying mechanisms, you'll find information here to help you grasp the essence of the Diva Staking protocol. You can also find additional documentation independently maintained by the Staking Foundation [here](https://docs.divastaking.net).
 
 ## Where do I start?
 

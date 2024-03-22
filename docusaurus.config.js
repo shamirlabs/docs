@@ -147,7 +147,7 @@ const config = {
               },
               {
                 label: 'Diva Staking website',
-                to: 'https://divastaking.com',
+                to: 'https://divastaking.net',
               },
             ],
           },
