@@ -156,7 +156,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/diva',
+                href: 'https://discord.gg/divastaking',
               },
               {
                 label: 'Twitter',

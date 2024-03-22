@@ -22,4 +22,4 @@ A new Diva client release will be released soon fixing this bug. Please follow [
 
 ## Report other issues
 
-Please, report any other bugs in the [testnet Github repository](https://github.com/shamirlabs/diva-alpha-net/issues) or [in our Discord](https://discord.com/invite/diva).
+Please, report any other bugs in the [testnet Github repository](https://github.com/shamirlabs/diva-alpha-net/issues) or [in our Discord](https://discord.com/invite/divastaking).

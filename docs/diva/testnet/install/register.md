@@ -14,7 +14,7 @@ To do that, you will need to access to the Diva operator web UI in any of two wa
 
 If you access to it remotely, remember typing `YOUR_NODE_PUBLIC_IP:30000` when asked for the API URL of your node.
 
-Having issues? Ask in #operator-testnet of [Diva's community Discord](https://discord.gg/diva).
+Having issues? Ask in #operator-testnet of [Diva's community Discord](https://discord.gg/divastaking).
 
 Once your node is registered, you can [start validating!](validate)
 
