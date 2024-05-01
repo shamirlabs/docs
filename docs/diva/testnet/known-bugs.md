@@ -15,11 +15,7 @@ The current Diva version doesn't require any collateral to receive validator key
 
 You can see the currently network stats at [Divascan.io](https://divascan.io/).
 
-However, as of Aug 21st, there is [a concurrency issue preventing the creation of new validators](https://discord.com/channels/1041618287500460083/1139972545144160256/1142489182023991307).
-
-A new Diva client release will be released soon fixing this bug. Please follow [#testnet-announcements on Discord](https://discord.com/channels/1041618287500460083/1139972545144160256) to know once the new release is out!
-
 
 ## Report other issues
 
-Please, report any other bugs in the [testnet Github repository](https://github.com/shamirlabs/diva-alpha-net/issues) or [in our Discord](https://discord.com/invite/divastaking).
+Please, report any other bugs in the [testnet Github repository](https://github.com/shamirlabs/diva-alpha-net/issues) or [in our Discord](https://discord.gg/nektarnetwork).

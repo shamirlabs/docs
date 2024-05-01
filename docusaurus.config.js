@@ -146,8 +146,8 @@ const config = {
                 to: 'https://stake.diva.community',
               },
               {
-                label: 'Diva Staking website',
-                to: 'https://divastaking.net',
+                label: 'Nektar Network website',
+                to: 'https://nektar.network',
               },
             ],
           },
@@ -156,7 +156,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/divastaking',
+                href: 'https://discord.gg/nektarnetwork',
               },
               {
                 label: 'Twitter',

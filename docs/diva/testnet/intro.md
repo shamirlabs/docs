@@ -16,7 +16,7 @@ The Diva Operator testnet allows you to:
 
 Before you get started, be sure to check the [Hardware requirements](hardware/intro). If your hardware is compatible, you can continue following the instructions to [Run a node](install/download).
 
-If you face any issues, check the [known bugs](known-bugs) or ask in the `#operator-testnet` channel of the [Diva community Discord](https://discord.gg/divastaking).
+If you face any issues, check the [known bugs](known-bugs) or ask in the `#operator-testnet` channel of the [Diva community Discord](https://discord.gg/nektarnetwork).
 
 ### How does it work?
 
